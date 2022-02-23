@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/xml_usb_device_filter.xml.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/xml/usb_device_filter.xml"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/menu_menu_terminal.xml.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/menu/menu_terminal.xml"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-xxxhdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/menu_menu_devices.xml.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/menu/menu_devices.xml"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-mdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-hdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable_ic_send_white_24dp.xml.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable/ic_send_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/layout_fragment_terminal.xml.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/layout/fragment_terminal.xml"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_notification.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-mdpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_notification.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-xxxhdpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_notification.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-hdpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-xhdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable_ic_delete_white_24dp.xml.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable/ic_delete_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/layout_device_list_header.xml.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/layout/device_list_header.xml"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_clear_white_24dp.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-xxhdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/layout_device_list_item.xml.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/layout/device_list_item.xml"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_notification.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-xhdpi/ic_notification.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_notification.png.flat",
+        "source": "/Users/oziomaorjioke/Documents/Github-SSH/hackathon/SimpleUsbTerminal/app/src/main/res/drawable-xxhdpi/ic_notification.png"
+    }
+]
