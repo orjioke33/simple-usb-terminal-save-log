@@ -6,6 +6,7 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
+import android.os.Environment;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
@@ -43,6 +44,8 @@ import com.hoho.android.usbserial.driver.UsbSerialProber;
 
 import java.io.IOException;
 import java.util.EnumSet;
+import java.io.File;
+import java.io.FileWriter;
 
 public class TerminalFragment extends Fragment implements ServiceConnection, SerialListener {
 
@@ -334,9 +337,27 @@ public class TerminalFragment extends Fragment implements ServiceConnection, Ser
         }
     }
 
+    private void writeFileOnInternalStorage(Context mcoContext, String sFileName, String sBody) {
+        File dir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS + "/FalconDump/");
+        if(!dir.exists()){
+            dir.mkdir();
+        }
+
+        try {
+            File gpxfile = new File(dir, sFileName);
+            FileWriter writer = new FileWriter(gpxfile);
+            writer.append(sBody);
+            writer.flush();
+            writer.close();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
     private void receive(byte[] data) {
         if(hexEnabled) {
             receiveText.append(TextUtil.toHexString(data) + '\n');
+            writeFileOnInternalStorage(getContext(),"testfile01.txt", receiveText.getText().toString());
         } else {
             String msg = new String(data);
             if(newline.equals(TextUtil.newline_crlf) && msg.length() > 0) {
