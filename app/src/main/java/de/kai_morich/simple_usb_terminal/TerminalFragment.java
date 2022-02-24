@@ -238,7 +238,15 @@ public class TerminalFragment extends Fragment implements ServiceConnection, Ser
                 status("send BREAK failed: " + e.getMessage());
             }
             return true;
-        } else {
+        } else if (id == R.id.debugDump) {
+            try {
+                send("df -h");
+            } catch (Exception e) {
+                status("debug dump failed: " + e.getMessage());
+            }
+            return true;
+        }
+        else {
             return super.onOptionsItemSelected(item);
         }
     }

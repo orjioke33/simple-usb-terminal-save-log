@@ -24,4 +24,8 @@
         android:id="@+id/sendBreak"
         android:title="Send BREAK"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/debugDump"
+        android:title="Debug Dump"
+        app:showAsAction="never" />
 </menu>
