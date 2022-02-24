@@ -65,8 +65,13 @@ public class TerminalFragment extends Fragment implements ServiceConnection, Ser
     private boolean initialStart = true;
     private boolean hexEnabled = false;
     private boolean controlLinesEnabled = false;
+    private boolean debugDumpChosen = false;
     private boolean pendingNewline = false;
     private String newline = TextUtil.newline_crlf;
+
+    private String dumpMsg = "";
+    private String serial = "";
+    private String filename = "";
 
     public TerminalFragment() {
         broadcastReceiver = new BroadcastReceiver() {
@@ -239,8 +244,26 @@ public class TerminalFragment extends Fragment implements ServiceConnection, Ser
             }
             return true;
         } else if (id == R.id.debugDump) {
+            debugDumpChosen = true;
+//            final Handler handler = new Handler();
+//            final Runnable r = new Runnable() {
+//                public void run() {
+//                    // writeFileOnInternalStorage();
+//                }
+//            };
             try {
-                send("df -h");
+                debugDumpChosen = true;
+                String dumpCommand = "clear && df -h";
+                long startTs = System.currentTimeMillis();
+                serial = "191213115D3";
+                filename = serial + "_" + String.valueOf(startTs) + ".txt";
+                // create filename from start time
+                dumpMsg = dumpCommand;
+                send(dumpCommand);
+                // wait 10 seconds
+                writeFileOnInternalStorage(getContext(), filename, dumpMsg);
+                dumpMsg = "";
+                long endTs = System.currentTimeMillis();
             } catch (Exception e) {
                 status("debug dump failed: " + e.getMessage());
             }
@@ -365,7 +388,6 @@ public class TerminalFragment extends Fragment implements ServiceConnection, Ser
     private void receive(byte[] data) {
         if(hexEnabled) {
             receiveText.append(TextUtil.toHexString(data) + '\n');
-            writeFileOnInternalStorage(getContext(),"testfile01.txt", receiveText.getText().toString());
         } else {
             String msg = new String(data);
             if(newline.equals(TextUtil.newline_crlf) && msg.length() > 0) {
@@ -380,6 +402,9 @@ public class TerminalFragment extends Fragment implements ServiceConnection, Ser
                 pendingNewline = msg.charAt(msg.length() - 1) == '\r';
             }
             receiveText.append(TextUtil.toCaretString(msg, newline.length() != 0));
+            if (debugDumpChosen) {
+                dumpMsg += receiveText.getText().toString();
+            }
         }
     }
 
@@ -409,6 +434,9 @@ public class TerminalFragment extends Fragment implements ServiceConnection, Ser
     @Override
     public void onSerialRead(byte[] data) {
         receive(data);
+        if (debugDumpChosen) {
+            writeFileOnInternalStorage(getContext(), filename, data.toString());
+        }
     }
 
     @Override
